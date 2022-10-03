@@ -1,0 +1,22 @@
+17:01:46 **** Incremental Build of configuration Debug for project PrimeiroPrograma ****
+make all 
+Building file: ../programa1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"programa1.d" -MT"programa1.o" -o "programa1.o" "../programa1.c"
+../programa1.c: In function ‘main’:
+../programa1.c:6:13: warning: unused variable ‘idadeinacializada’ [-Wunused-variable]
+    6 |         int idadeinacializada = 0;
+      |             ^~~~~~~~~~~~~~~~~
+../programa1.c:5:13: warning: unused variable ‘idade’ [-Wunused-variable]
+    5 |         int idade;
+      |             ^~~~~
+Finished building: ../programa1.c
+ 
+Building target: PrimeiroPrograma
+Invoking: GCC C Linker
+gcc  -o "PrimeiroPrograma" ./programa1.o   
+Finished building target: PrimeiroPrograma
+ 
+
+17:01:46 Build Finished. 0 errors, 2 warnings. (took 269ms)
+

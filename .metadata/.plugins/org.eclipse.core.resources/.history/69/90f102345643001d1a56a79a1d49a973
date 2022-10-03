@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+	//declarando variáveis
+	int idade;
+	int idadeinacializada = 0;
+
+	//Função para escrever algo na saída padrão (console)
+	printf("Qual é a sua idade?\n");
+
+	return 0;
+}

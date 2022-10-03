@@ -1,0 +1,37 @@
+16:37:15 **** Build of configuration Debug for project PrimeiroPrograma ****
+make all 
+Building file: ../programa.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"programa.d" -MT"programa.o" -o "programa.o" "../programa.c"
+Finished building: ../programa.c
+ 
+Building target: PrimeiroPrograma
+Invoking: GCC C Linker
+gcc  -o "PrimeiroPrograma" ./programa.o   
+Finished building target: PrimeiroPrograma
+ 
+16:37:37 **** Incremental Build of configuration Debug for project PrimeiroPrograma ****
+make all 
+make: Nada a ser feito para 'all'.
+16:53:32 **** Build of configuration Debug for project PrimeiroPrograma ****
+make all 
+make: Nada a ser feito para 'all'.
+17:01:46 **** Incremental Build of configuration Debug for project PrimeiroPrograma ****
+make all 
+Building file: ../programa1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"programa1.d" -MT"programa1.o" -o "programa1.o" "../programa1.c"
+../programa1.c: In function ‘main’:
+../programa1.c:6:13: warning: unused variable ‘idadeinacializada’ [-Wunused-variable]
+    6 |         int idadeinacializada = 0;
+      |             ^~~~~~~~~~~~~~~~~
+../programa1.c:5:13: warning: unused variable ‘idade’ [-Wunused-variable]
+    5 |         int idade;
+      |             ^~~~~
+Finished building: ../programa1.c
+ 
+Building target: PrimeiroPrograma
+Invoking: GCC C Linker
+gcc  -o "PrimeiroPrograma" ./programa1.o   
+Finished building target: PrimeiroPrograma
+ 
